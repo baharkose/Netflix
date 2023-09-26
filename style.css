@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue","Segoe UI","Roboto","Ubuntu",sans-serif;
+}
+
+body {
+  background: #00000090 url(./assets/bg/bg.jpg);
+  /* opacity: 1; */
+  background-repeat: no-repeat;
+  position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  /* opacity: 0.5; */
+  /* position: relative; */
+  /* width: 100%;
+  height:100%; 
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+
+  /* font-family: "Roboto", "Helvetica", sans-serif; */
+  color: white;
+}
+
+.header-bar {
+  /* display: flex;
+  justify-content: space-around; */
+  
+  /* margin-top: 10%; */
+  /* margin-top: 10%; */
+  height: 10vh;
+  /* background-color: yellow; */
+  
+
+  /* background-color: lightcoral; */
+}
+
+.nav {
+    margin-top:4vh;
+  /* background-color: blue; */
+
+  /* width: 90vh; */
+  display: flex;
+  justify-content: space-around;
+  /* height: 100vh; */
+  align-items: center;
+  /* background-color: blue; */
+}
+.nav-left {
+  margin-left: -180px;
+}
+
+.nav-right {
+  margin-right: -180px;
+}
+
+.language {
+  padding: 6px 36px;
+  border-radius: 0.25rem;
+  background: rgba(14, 13, 13, 0.126);
+  color: white;
+  border: 1px solid rgb(98, 92, 92);
+}
+
+.log-in {
+  padding: 7px 24px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  fill: currentColor;
+  border-radius: 0.25rem;
+}
+
+.log-in:hover {
+  background-color: rgb(194, 41, 41);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.netflix-logo {
+  width: 250px;
+  height: 43px;
+}
+
+.main {
+  margin-top: 5%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.everyone {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+.paragraph {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+ 
+
+}
+
+.mail {
+  padding: 16px 240px 16px 20px;
+  background-color: rgba(0, 0, 0, 0.401);
+  border: 0.5px solid rgb(156, 151, 151);
+  border-radius: 4px;
+}
+
+.start {
+  padding: 16px 44px 16px 44px;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 900;
+}
+
+/*temporary */
+
+.everyone,
+.paragraph{
+  margin-bottom:5%;
+}
